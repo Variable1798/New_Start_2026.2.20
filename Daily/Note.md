@@ -22,7 +22,7 @@ New_Start_2026.2.20/
 └─ Inbox/                  # 临时草稿/待整理  
    └─ quick_notes.md  
 ## 图片命名  
-![](assets/2026-02-20_git_proxy_01.png)  
+`![](assets/2026-02-20_git_proxy_01.png)`   
 ## git上传  
 <mark> 原理 </mark>  
 加内容  
