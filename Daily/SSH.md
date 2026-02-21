@@ -4,7 +4,7 @@
 2. 将本地公钥加到服务器端
 在本地找到刚刚生成的公钥，用Vscode打开复制公钥，路径一般为：type C:\Users\Quasar\.ssh\id_ed25519.pub
 会输出一整行类似：ssh-ed25519 AAAAC3Nza... Quasar@PC
-==或者==管理员身份运行本地Powershell，执行：type C:\Users\Quasar\.ssh\id_ed25519.pub
+<mark>或者</mark>管理员身份运行本地Powershell，执行：type C:\Users\Quasar\.ssh\id_ed25519.pub
 会输出一整行类似：ssh-ed25519 AAAAC3Nza... Quasar@PC   亦可
 3. 在Vscode远程终端将公钥写入服务器
 正常输入Token链接SSH服务器后，打开终端（Ctrl + ~）
