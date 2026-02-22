@@ -28,10 +28,11 @@ New_Start_2026.2.20/
 加内容  
 告诉git你干了啥  
 上传  
-<mark> 示例 </mark>  
+<mark> 笔记上传标准流程 </mark>  
+cd H:\EX_Daily_Note\New_Start_2026.2.20  
 git status  
 git add .  
-git commit -m "2026-02-21 daily notes"  
+git commit -m "2026-02-21 update daily notes"  
 git push  
 <mark> 或 </mark>  
 git add .gitignore  
