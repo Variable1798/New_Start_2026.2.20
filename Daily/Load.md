@@ -9,13 +9,13 @@ sftp -P 40019 -i C:\Users\Quasar\.ssh\id_ed25519 jovyan@（你的服务器ip）
 pwd  
 put （你的数据所在文件夹名）.tar.gz  
 结果如图所示就算成功：  
-![](assets\2026-02-22_git_01.png)   
+![](assets/2026-02-22_git_01.png)   
 执行：  
 bye，退出sftp  
 连接服务器，执行：  
 ssh -p 40019 -i ~/.ssh/id_ed25519 jovyan@（你的服务器ip）  
 结果如图所示就算成功：  
-![](assets\2026-02-22_git_02.png)  
+![](assets/2026-02-22_git_02.png)  
 成功连接服务器！  
 ## 如果你要解压到指定目录（目录名以project为例）
 执行：   
@@ -26,7 +26,7 @@ cd ~/projects/（你的数据所在文件夹名）
 cd ~    
 ls -lh transunet.tar.gz  （确认文件是否已经上传至服务器）  
 结果如图所示就算成功：  
-![](assets\2026-02-22_git_03.png)  
+![](assets/2026-02-22_git_03.png)  
 再执行解压  
 tar -xzvf gdlc1.tar.gz   
 最后断开服务器连接  
